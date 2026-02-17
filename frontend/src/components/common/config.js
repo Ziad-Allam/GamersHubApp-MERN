@@ -237,4 +237,4 @@ export const updateUserDataControls = [
     },
 ]
 
-export const base_url = "https://gamershub-frontend-mern.vercel.app/api/";
+export const base_url = "https://gamershub-backend-mern.vercel.app/api/";
