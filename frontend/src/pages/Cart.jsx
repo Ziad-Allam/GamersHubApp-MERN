@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchCart } from '../features/cart/cartSlice'
 import CartItem from '../components/cart/CartItem';
 import { useNavigate } from 'react-router-dom';
-import useHandleQuantity from '../hooks/useHandleQuantity.JS';
+import useHandleQuantity from '../hooks/useHandleQuantity.js';
 import useHandleDeleteItem from '../hooks/useHandleDeleteItem.js';
 import EmptyCart from '../components/ui/EmptyCart.jsx';
 import useCheckToken from '../hooks/useCheckToken.js';
