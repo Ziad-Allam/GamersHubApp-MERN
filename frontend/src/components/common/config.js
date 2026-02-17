@@ -237,4 +237,4 @@ export const updateUserDataControls = [
     },
 ]
 
-export const base_url = "http://localhost:5000/api/";
+export const base_url = "https://gamershub-frontend-mern.vercel.app/api/";
