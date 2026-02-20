@@ -48,15 +48,15 @@ function ProductCard({ product }) {
           <div className="flex items-end gap-2">
             {product?.salePrice > 0 ? (
               <>
-                <p className="text-xl font-medium text-muted-foreground">
+                <p className="text-base lg:text-xl font-medium text-muted-foreground">
                   ${product?.salePrice}
                 </p>
-                <p className='line-through text-base text-gray-500'>
+                <p className='line-through text-sm text-gray-500'>
                   ${product?.price}
                 </p>
               </>
             ) :
-              <p className='font-bold text-lg'>
+              <p className='font-medium text-base lg:text-xl'>
                 ${product?.price}
               </p>
             }
