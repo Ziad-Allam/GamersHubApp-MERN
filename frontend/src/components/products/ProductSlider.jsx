@@ -9,7 +9,7 @@ function ProductSlider({ products, children }) {
             {children}
 
             <Swiper
-                slidesPerView={1.5}
+                slidesPerView={2.2}
                 spaceBetween={10}
                 className="mySwiper"
                 breakpoints={{
