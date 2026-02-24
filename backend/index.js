@@ -47,6 +47,7 @@ app.use(cors({
         "Cache-Control",
         "Expires",
         "Pragma",
+        "X-Requested-With"
     ],
     credentials: true,
 }));
